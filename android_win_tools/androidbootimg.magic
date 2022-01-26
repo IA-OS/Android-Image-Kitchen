@@ -52,7 +52,7 @@
 # Intel OSIP
 1000	search		\xFC\xFA\xBC\x00	OSIP bootimg (headerless)
 !:strength / 15
-0		string		$OS$\x00\x00\x01	OSIP bootimg
+0		string		\x24\x4F\x53\x24	OSIP bootimg
 >52		string		\x00\x00\x00\x00	\b, boot (signed)
 >52		string		\x01\x00\x00\x00	\b, boot (unsigned)
 >52		string		\x0C\x00\x00\x00	\b, recovery (signed)
